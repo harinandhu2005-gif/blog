@@ -3,77 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Laravel Blog</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f5f7fa;
-    }
-
-    header {
-      background-color: #0d1b2a;
-      color: white;
-      padding: 1rem 2rem;
-      display: flex;
-      align-items: center;
-    }
-
-    .logo {
-      width: 30px;
-      height: 30px;
-      background: #1976d2;
-      border-radius: 5px;
-      margin-right: 10px;
-    }
-
-    .brand {
-      font-weight: bold;
-      font-size: 1.2rem;
-    }
-
-    .search-container {
-      background: #0d1b2a;
-      padding: 2rem;
-      text-align: center;
-    }
-
-    .search-box {
-      width: 60%;
-      padding: 1rem;
-      font-size: 1rem;
-      border: none;
-      border-radius: 8px;
-    }
-
-    .tags {
-      margin-top: 1.5rem;
-    }
-
-    .tag {
-      display: inline-block;
-      background: #1e2f47;
-      color: white;
-      padding: 0.5rem 1rem;
-      border-radius: 20px;
-      margin: 0.3rem;
-      font-size: 0.9rem;
-      cursor: pointer;
-    }
-
-    .tag:hover {
-      background: #2d3e5c;
-    }
-  </style>
+  <title>Laravel Daily</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <!-- Header -->
   <header>
-    <div class="logo">
-      <img src="larvel.svg" alt="Italian trulli">
-    </div>
+    <div class="logo"></div>
     <div class="brand">Laravel Daily</div>
   </header>
 
+  <!-- Search Section -->
   <div class="search-container">
     <input class="search-box" type="text" placeholder="Search for anything: API, Filament, multi-tenancy..." />
     <div class="tags">
@@ -85,6 +25,25 @@
       <span class="tag">eloquent</span>
       <span class="tag">API</span>
       <span class="tag">testing</span>
+    </div>
+  </div>
+
+  <!-- Courses Section -->
+  <div class="course-section">
+    <h2 class="section-title">Latest Courses</h2>
+    <div class="course-cards">
+      <div class="course-card">
+        <h3>Claude Code AI<br>For Laravel Projects</h3>
+        <img src="logomak.svg" alt="Laravel Logo" />
+      </div>
+      <div class="course-card">
+        <h3>Create a Mobile App<br>with Laravel?</h3>
+        <img src="logomak.svg" alt="Laravel Mobile" />
+      </div>
+      <div class="course-card">
+        <h3>Build REST API<br>with Laravel</h3>
+        <img src="logomak.svg" alt="Laravel API" />
+      </div>
     </div>
   </div>
 </body>
