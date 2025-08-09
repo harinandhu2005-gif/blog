@@ -4,7 +4,7 @@ body {
   background-color: #f5f7fa;
 }
 
-/* Header Styles */
+
 header {
   background-color: #0d1b2a;
   color: white;
@@ -59,23 +59,8 @@ header {
 .tag:hover {
   background: #2d3e5c;
 }
-/* Course Section */
+/* Course section */
 
-.course-title {
-  font-size: 1rem;
-  font-weight: bold;
-  color: #111;
-}
-.course-cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  justify-content: flex-start;
-}
-.course-card-wrapper {
-  width: 260px;
-  margin-bottom: 30px;
-}
 .course-card {
   background: linear-gradient(to right, #1e2f47, #2e3d59);
   color: white;
