@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
   <title>Laravel Daily</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <!-- Header -->
-  <header>
-    <div class="logo"></div>
+  <header>  
+    
+    <img src="larvel.svg" alt="company logo" class="logo"/>
     <div class="brand">Laravel Daily</div>
+    
   </header>
 
   <!-- Search Section -->
@@ -27,24 +29,50 @@
       <span class="tag">testing</span>
     </div>
   </div>
+  <!-- Latest Courses -->
+  
+<section class="latest-courses">
+  <h2 class="section-title">Latest Courses</h2>
 
-  <!-- Courses Section -->
-  <div class="course-section">
-    <h2 class="section-title">Latest Courses</h2>
-    <div class="course-cards">
+  <div class="course-cards"> <!-- FLEX CONTAINER starts here -->
+
+    <!-- Card 1 -->
+    <div class="course-card-wrapper">
       <div class="course-card">
         <h3>Claude Code AI<br>For Laravel Projects</h3>
         <img src="logomak.svg" alt="Laravel Logo" />
       </div>
+      <div class="course-info">
+        <div class="meta">Jul 2025 · 48 min</div>
+        <h4 class="course-title">[NEW] Claude Code for Laravel Projects: Crash Course</h4>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="course-card-wrapper">
       <div class="course-card">
         <h3>Create a Mobile App<br>with Laravel?</h3>
         <img src="logomak.svg" alt="Laravel Mobile" />
       </div>
+      <div class="course-info">
+        <div class="meta">Jul 2025 · 122 min</div>
+        <h4 class="course-title">[NEW] NativePHP: Build Mobile App with Laravel</h4>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="course-card-wrapper">
       <div class="course-card">
         <h3>Build REST API<br>with Laravel</h3>
         <img src="logomak.svg" alt="Laravel API" />
       </div>
+      <div class="course-info">
+        <div class="meta">Jul 2025 · 60 min</div>
+        <h4 class="course-title">[NEW] Build REST API with Laravel</h4>
+      </div>
     </div>
-  </div>
+
+  </div> 
+</section>
 </body>
 </html>
