@@ -65,7 +65,8 @@ header {
 }
 .course-card-wrapper{
   width: 20%;
-  margin:0 auto;
+  margin: 0 auto;
+  
 }
 .course-card {
   background: linear-gradient(to right, #1e2f47, #2e3d59);
@@ -76,11 +77,12 @@ header {
   height: 150px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   text-align: center;
   transition: transform 0.2s ease;
+  gap: 5px;
 }
 
 .course-info {
